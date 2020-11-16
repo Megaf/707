@@ -888,22 +888,6 @@ if you contacted me before making any changes to this software.
 		</pitch>
 	</wind>
 	
-	<!-- sound in the cockpit at autostart procedure -->
-	<enginesmsg>
-		<name>clear engines</name>
-		<mode>once</mode>
-		<path>Aircraft/707/Sounds/original/clear_engines.wav</path>
-		<condition>
-	  	<equals>
-				<property>controls/engines/msg</property>
-				<value>1</value>
-			</equals>
-		</condition>
-		<volume>
-			<factor>1</factor>
-		</volume>
-	</enginesmsg>
-	
 	<enginesmsg>
 		<name>starting one</name>
 		<mode>once</mode>
