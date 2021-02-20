@@ -35,7 +35,10 @@ if you contacted me before making any changes to this software.
         <file type="string">707</file>
       </livery>
   </model>
-  
+
+  <flight-model>jsb</flight-model>
+  <aero>707</aero>
+
   <remote>
    <pilot-callsign type="string"/>
   </remote>

@@ -38,6 +38,9 @@ if you contacted me before making any changes to this software.
       </livery>
   </model>
 
+  <flight-model>jsb</flight-model>
+  <aero>707</aero>
+
 	<menubar>
 		<default>
 			<menu n="100">

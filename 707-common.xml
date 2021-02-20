@@ -27,8 +27,6 @@ if you contacted me before making any changes to this software.
   <description>Boeing 707</description>
   <author>Lake of Constance Hangar [Original from Innis Cunningham]</author>
   <status>2.2.6</status>
-  <flight-model>jsb</flight-model>
-  <aero>707</aero>
   <virtual-cockpit archive="y">true</virtual-cockpit>
   <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
 

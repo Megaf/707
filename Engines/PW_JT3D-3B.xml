@@ -1,27 +1,18 @@
 <?xml version="1.0"?>
-<!--
-  File:     PW_JT3D-3.xml
-  Author:   Aero-Matic v 0.83
 
-  Inputs:
-    name:           PW_JT3D-3
-    type:           turbine
-    thrust:         18000 lb
-    augmented?      no
-    injected?       no
--->
-
-<turbine_engine name="PW_JT3D-3">
+<!-- Sources: jet-engine.net, Wikipedia and Boeing 707-300 Operations Manual -->
+<turbine_engine name="PW_JT3D-3B">
   <milthrust> 18000.0 </milthrust>
-  <bypassratio>     1.0 </bypassratio>
-  <tsfc>            0.8 </tsfc>
-  <bleed>           0.03</bleed>
-  <idlen1>         30.0 </idlen1>
-  <idlen2>         60.0 </idlen2>
-  <maxn1>         100.0 </maxn1>
-  <maxn2>         100.0 </maxn2>
-  <augmented>         0 </augmented>
-  <injected>          0 </injected>
+  <bypassratio>     1.4   </bypassratio>
+  <tsfc>            0.78 </tsfc>
+  <bleed>           0.03  </bleed>
+  <idlen1>         30.0   </idlen1>
+  <idlen2>         60.0   </idlen2>
+  <maxn1>         100.0   </maxn1>
+  <maxn2>         100.0   </maxn2>
+  <ignitionn2>     35.0   </ignitionn2>
+  <augmented>         0   </augmented>
+  <injected>          0   </injected>
 
   <function name="IdleThrust">
    <table>
