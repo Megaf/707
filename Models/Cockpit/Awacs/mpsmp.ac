@@ -1,0 +1,2810 @@
+AC3Db
+MATERIAL "radarblade.001" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.062" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.063" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.064" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.065" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.066" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.067" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.068" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.069" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.070" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.071" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.072" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.073" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.074" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.075" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.076" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.077" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.078" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.079" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.080" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.081" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.082" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.083" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.084" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.085" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.086" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.087" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.088" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.089" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.090" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.091" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.092" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.093" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.094" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.095" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.096" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.097" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.098" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.099" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.100" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.101" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.102" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.103" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.104" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.105" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.021" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.022" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.023" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.024" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.025" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.026" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.027" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.028" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.029" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.030" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.031" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.032" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.033" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.034" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.035" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.061" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.002" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.003" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.004" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.005" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.006" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.007" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.008" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.009" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.010" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.011" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.012" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.013" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.014" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.015" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.016" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.017" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.018" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.019" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.020" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.036" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.037" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.038" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.039" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.040" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.041" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.042" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.043" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.044" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.045" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.046" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.047" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.048" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.049" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.050" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.051" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.052" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.053" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.054" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.055" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.056" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.057" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.058" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.059" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "radarblade.060" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+OBJECT world
+name "Blender_exporter_v3.3__mpsmp.ac"
+kids 135
+OBJECT poly
+name "ai"
+data 6
+mp.030
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 0
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.001"
+data 6
+mp.091
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 1
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.002"
+data 6
+mp.092
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 2
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.003"
+data 6
+mp.093
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 3
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.004"
+data 6
+mp.094
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 4
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.005"
+data 6
+mp.095
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 5
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.006"
+data 6
+mp.096
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 6
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.007"
+data 6
+mp.097
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 7
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.008"
+data 6
+mp.098
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 8
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.009"
+data 6
+mp.099
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 9
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.010"
+data 6
+mp.100
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 10
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.011"
+data 6
+mp.101
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 11
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.012"
+data 6
+mp.102
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 12
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.013"
+data 6
+mp.103
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 13
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.014"
+data 6
+mp.104
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 14
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.015"
+data 6
+mp.105
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 15
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.016"
+data 6
+mp.106
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 16
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.017"
+data 6
+mp.107
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 17
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.018"
+data 6
+mp.108
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 18
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.019"
+data 6
+mp.109
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 19
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.020"
+data 6
+mp.110
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 20
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.021"
+data 6
+mp.111
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 21
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.022"
+data 6
+mp.112
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 22
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.023"
+data 6
+mp.113
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 23
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.024"
+data 6
+mp.114
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 24
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.025"
+data 6
+mp.115
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 25
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.026"
+data 6
+mp.116
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 26
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.027"
+data 6
+mp.117
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 27
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.028"
+data 6
+mp.118
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 28
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.029"
+data 6
+mp.119
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 29
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.030"
+data 6
+mp.120
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 30
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.031"
+data 6
+mp.121
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 31
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.032"
+data 6
+mp.122
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 32
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.033"
+data 6
+mp.123
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 33
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.034"
+data 6
+mp.124
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 34
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.035"
+data 6
+mp.125
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 35
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.036"
+data 6
+mp.126
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 36
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.037"
+data 6
+mp.127
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 37
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.038"
+data 6
+mp.128
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 38
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.039"
+data 6
+mp.129
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 39
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.040"
+data 6
+mp.130
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 40
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.041"
+data 6
+mp.131
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 41
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.042"
+data 6
+mp.132
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 42
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.043"
+data 6
+mp.133
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 43
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "ai.044"
+data 6
+mp.134
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 44
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp"
+data 2
+mp
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.001"
+data 6
+mp.001
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.002"
+data 6
+mp.002
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.003"
+data 6
+mp.003
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.004"
+data 6
+mp.004
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.005"
+data 6
+mp.005
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.006"
+data 6
+mp.006
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.007"
+data 6
+mp.007
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.008"
+data 6
+mp.008
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.009"
+data 6
+mp.009
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.010"
+data 6
+mp.010
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.011"
+data 6
+mp.011
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.012"
+data 6
+mp.012
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.013"
+data 6
+mp.013
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.014"
+data 6
+mp.014
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.015"
+data 6
+mp.015
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.016"
+data 6
+mp.016
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.017"
+data 6
+mp.017
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.018"
+data 6
+mp.018
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.019"
+data 6
+mp.019
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.020"
+data 6
+mp.020
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.021"
+data 6
+mp.021
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.022"
+data 6
+mp.022
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.023"
+data 6
+mp.023
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.024"
+data 6
+mp.024
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.025"
+data 6
+mp.025
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.026"
+data 6
+mp.026
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.027"
+data 6
+mp.027
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.028"
+data 6
+mp.028
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.029"
+data 6
+mp.029
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 45
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.030"
+data 6
+mp.050
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 46
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.031"
+data 6
+mp.051
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 47
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.032"
+data 6
+mp.052
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 48
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.033"
+data 6
+mp.053
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 49
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.034"
+data 6
+mp.054
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 50
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.035"
+data 6
+mp.055
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 51
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.036"
+data 6
+mp.056
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 52
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.037"
+data 6
+mp.057
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 53
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.038"
+data 6
+mp.058
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 54
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.039"
+data 6
+mp.059
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 55
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.040"
+data 6
+mp.060
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 56
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.041"
+data 6
+mp.061
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 57
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.042"
+data 6
+mp.062
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 58
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.043"
+data 6
+mp.063
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 59
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "mp.044"
+data 6
+mp.064
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00593 0.00454
+0.00212 0.00358 -0.00491
+0.00212 -0.00593 -0.00491
+0.00212 0.00358 0.00454
+numsurf 1
+SURF 0X10
+mat 60
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift"
+data 6
+mp.090
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 61
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.001"
+data 6
+mp.031
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 62
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.002"
+data 6
+mp.032
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 63
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.003"
+data 6
+mp.033
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 64
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.004"
+data 6
+mp.034
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 65
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.005"
+data 6
+mp.035
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 66
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.006"
+data 6
+mp.036
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 67
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.007"
+data 6
+mp.037
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 68
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.008"
+data 6
+mp.038
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 69
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.009"
+data 6
+mp.039
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 70
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.010"
+data 6
+mp.040
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 71
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.011"
+data 6
+mp.041
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 72
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.012"
+data 6
+mp.042
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 73
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.013"
+data 6
+mp.043
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 74
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.014"
+data 6
+mp.044
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 75
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.015"
+data 6
+mp.045
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 76
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.016"
+data 6
+mp.046
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 77
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.017"
+data 6
+mp.047
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 78
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.018"
+data 6
+mp.048
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 79
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.019"
+data 6
+mp.049
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 80
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.020"
+data 6
+mp.065
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 81
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.021"
+data 6
+mp.066
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 82
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.022"
+data 6
+mp.067
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 83
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.023"
+data 6
+mp.068
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 84
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.024"
+data 6
+mp.069
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 85
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.025"
+data 6
+mp.070
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 86
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.026"
+data 6
+mp.071
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 87
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.027"
+data 6
+mp.072
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 88
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.028"
+data 6
+mp.073
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 89
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.029"
+data 6
+mp.074
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 90
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.030"
+data 6
+mp.075
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 91
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.031"
+data 6
+mp.076
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 92
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.032"
+data 6
+mp.077
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 93
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.033"
+data 6
+mp.078
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 94
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.034"
+data 6
+mp.079
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 95
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.035"
+data 6
+mp.080
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 96
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.036"
+data 6
+mp.081
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 97
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.037"
+data 6
+mp.082
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 98
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.038"
+data 6
+mp.083
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 99
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.039"
+data 6
+mp.084
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 100
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.040"
+data 6
+mp.085
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 101
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.041"
+data 6
+mp.086
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 102
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.042"
+data 6
+mp.087
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 103
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.043"
+data 6
+mp.088
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 104
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
+OBJECT poly
+name "swift.044"
+data 6
+mp.089
+crease 45.0
+texture "radarblade.png"
+numvert 4
+0.00212 -0.00587 0.00454
+0.00212 0.00364 -0.00491
+0.00212 -0.00587 -0.00491
+0.00212 0.00364 0.00454
+numsurf 1
+SURF 0X10
+mat 105
+refs 4
+3 0.998184 0.922993
+0 0.998184 0.998908
+2 0.913927 0.998908
+1 0.913927 0.922993
+kids 0
