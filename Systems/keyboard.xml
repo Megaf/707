@@ -17,9 +17,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Every software has a developer, also free software. 
-As a gesture of courtesy and respect, I would be delighted 
-if you contacted me before making any changes to this software. 
+Every software has a developer, also free software.
+As a gesture of courtesy and respect, I would be delighted
+if you contacted me before making any changes to this software.
 <info (at) marc-kraus.de> April, 2017
 ########################################################################-->
 <PropertyList>
@@ -122,7 +122,7 @@ if you contacted me before making any changes to this software.
 
 <key n="79">
   <name>O</name>
-  <desc>Extend Refuelling Drogues</desc>  
+  <desc>Extend Refuelling Drogues</desc>
   <binding>
 		  <command>nasal</command>
 		  <script>b707.toggleRefuelling();</script>
@@ -130,11 +130,23 @@ if you contacted me before making any changes to this software.
 </key>
 <key n="2">
   <name>Ctrl + b</name>
-  <desc>Speedbrakes/Spoiler full</desc>  
+  <desc>Speedbrakes/Spoiler full</desc>
   <binding>
 		  <command>nasal</command>
 		  <script>b707.fullSpeedbrakes();</script>
   </binding>
 </key>
-
+<key n="101">
+		<name>e</name>
+		<desc>Idle Thrust</desc>
+		<binding>
+				<command>nasal</command>
+				<script>
+						setprop("controls/engines/engine[0]/throttle", 0);
+						setprop("controls/engines/engine[1]/throttle", 0);
+						setprop("controls/engines/engine[2]/throttle", 0);
+						setprop("controls/engines/engine[3]/throttle", 0);
+				</script>
+		</binding>
+</key>
 </PropertyList>
