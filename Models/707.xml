@@ -17,17 +17,17 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Every software has a developer, also free software. 
-As a gesture of courtesy and respect, I would be delighted 
-if you contacted me before making any changes to this software. 
+Every software has a developer, also free software.
+As a gesture of courtesy and respect, I would be delighted
+if you contacted me before making any changes to this software.
 <info (at) marc-kraus.de> April, 2017
 ########################################################################-->
 <PropertyList>
 
  <path>707.ac</path>
- 
+
 <animation>
-	<type>select</type>		
+	<type>select</type>
     <object-name>fuselage</object-name>
     <object-name>fuselage.inner</object-name>
     <object-name>fuselage.belly</object-name>
@@ -98,10 +98,10 @@ if you contacted me before making any changes to this software.
 	<object-name>LeftGearCompressor</object-name>
 	<object-name>LeftGearCompressor1</object-name>
 	<condition>
-    	<not><property>sim/current-view/internal</property></not>
+    	<not><property>/sim/current-view/internal</property></not>
 	</condition>
 </animation>
- 
+
   <sound><path>Aircraft/707/Sounds/mp-sound.xml</path></sound>
 
   <nasal>
@@ -178,7 +178,7 @@ if you contacted me before making any changes to this software.
     <texture-prop>texture</texture-prop>
     <texture>707.png</texture>
   </animation>
-  
+
 	<animation>
 		<type>material</type>
 		<object-name>rudder</object-name>
@@ -200,9 +200,9 @@ if you contacted me before making any changes to this software.
 		<type>noshadow</type>
 	  <object-name>fuselage.inner</object-name>
 	  <object-name>fuselage.belly</object-name>
-	  <object-name>cockpit</object-name>     
+	  <object-name>cockpit</object-name>
 	</animation>
-	
+
 	<!-- inside fuselage -->
 	<animation>
 		<type>material</type>
@@ -214,7 +214,7 @@ if you contacted me before making any changes to this software.
 		  <blue>0.1</blue>
 		  <factor-prop>sim/multiplay/generic/float[0]</factor-prop>
 		</emission>
-	</animation>	
+	</animation>
 
 	<animation>
 		<type>select</type>
@@ -229,7 +229,7 @@ if you contacted me before making any changes to this software.
         </or>
 		</condition>
 	</animation>
-	
+
 	<animation>
 		<type>select</type>
 		<object-name>fuselage.inner</object-name>
@@ -238,10 +238,17 @@ if you contacted me before making any changes to this software.
 				<property>sim/multiplay/generic/int[9]</property>
 				<and>
 					<not>
-						<equals>
-							<property>/sim/current-view/name</property>
-							<value type="string">Passengers View</value>
-						</equals>
+            <or>
+              <equals>
+      				<property>/sim/current-view/name</property>
+      				<value type="string">Passengers View 1</value>
+              </equals>
+
+              <equals>
+      				<property>/sim/current-view/name</property>
+      				<value type="string">Passengers View 2</value>
+              </equals>
+            </or>
 					</not>
 					<not><property>sim/multiplay/generic/int[9]</property></not>
 				</and>
@@ -259,7 +266,7 @@ if you contacted me before making any changes to this software.
 		<z-m>-2.9</z-m>
 	 </offsets>
 	</model>
-	
+
 	<model>
 	 <name>ExternalPowerUnit</name>
 	 <path>Aircraft/707/Models/epu.xml</path>
@@ -270,7 +277,7 @@ if you contacted me before making any changes to this software.
       <heading-deg> 25 </heading-deg>
 		</offsets>
 	</model>
-	
+
 	<animation>
 		<type>select</type>
 		<object-name>ExternalPowerUnit</object-name>
@@ -279,7 +286,7 @@ if you contacted me before making any changes to this software.
 		  <not><property>sim/multiplay/generic/int[19]</property></not>
 		</condition>
 	</animation>
-	
+
   <animation>
 		<type>pick</type>
 		<object-name>ExternalPowerUnit</object-name>
@@ -293,7 +300,7 @@ if you contacted me before making any changes to this software.
 		  </binding>
 		</action>
   </animation>
-  
+
   <!-- Fuel Truck -->
   <model>
   	<name>FuelTruck</name>
@@ -312,8 +319,8 @@ if you contacted me before making any changes to this software.
 		  <property>sim/multiplay/generic/float[13]</property>
 		  <not><property>sim/multiplay/generic/int[19]</property></not>
 		</condition>
-	</animation> 
-  
+	</animation>
+
   <animation>
 		<type>pick</type>
 		<object-name>FuelTruck</object-name>
@@ -323,7 +330,7 @@ if you contacted me before making any changes to this software.
 		  <interval-sec>0.2</interval-sec>
           <binding>
             <command>nasal</command>
-            <script><![CDATA[ 
+            <script><![CDATA[
 				setprop("b707/ground-service/fuel-truck/transfer", 0);
 				setprop("b707/ground-service/fuel-truck/connect", 0);
 				setprop("b707/ground-service/fuel-truck/enable", 0);
@@ -333,7 +340,7 @@ if you contacted me before making any changes to this software.
           </binding>
 		</action>
   </animation>
-	
+
 	<!-- Stairways -->
 	<model>
 		<name>frontStair</name>
@@ -356,7 +363,7 @@ if you contacted me before making any changes to this software.
 			<heading-deg>10</heading-deg>
 		</offsets>
 	</model>
-	
+
 	<animation>
 		<type>select</type>
 		<object-name>frontStair</object-name>
@@ -371,7 +378,7 @@ if you contacted me before making any changes to this software.
       </or>
 		</condition>
 	</animation>
-	
+
 	<animation>
 		<type>select</type>
 		<object-name>rearStair</object-name>
@@ -384,7 +391,7 @@ if you contacted me before making any changes to this software.
       </or>
 		</condition>
 	</animation>
-	
+
   <animation>
       <type>translate</type>
       <object-name>frontStair</object-name>
@@ -400,7 +407,7 @@ if you contacted me before making any changes to this software.
           <z> 0.0</z>
       </axis>
   </animation>
-  
+
   <animation>
       <type>translate</type>
       <object-name>rearStair</object-name>
@@ -416,7 +423,7 @@ if you contacted me before making any changes to this software.
           <z> 0.0</z>
       </axis>
   </animation>
-  
+
   <animation>
 		<type>pick</type>
 		<object-name>frontStair</object-name>
@@ -443,8 +450,8 @@ if you contacted me before making any changes to this software.
 		   <script>b707.doorsystem.pasrearexport();</script>
 		  </binding>
 		</action>
-  </animation>	
-  
+  </animation>
+
 	<!-- cargo equipment -->
 	<model>
 	 <name>Loader1</name>
@@ -455,7 +462,7 @@ if you contacted me before making any changes to this software.
 		<z-m>0</z-m>
 	 </offsets>
 	</model>
-	
+
 	<animation>
 		<type>select</type>
 		<object-name>Loader1</object-name>
@@ -472,7 +479,7 @@ if you contacted me before making any changes to this software.
 		  </and>
 		</condition>
 	</animation>
-	
+
   <animation>
       <type>translate</type>
       <object-name>Loader1</object-name>
@@ -489,7 +496,7 @@ if you contacted me before making any changes to this software.
           <z> 0.0</z>
       </axis>
   </animation>
-  
+
   <animation>
 		<type>pick</type>
 		<object-name>Loader1</object-name>
@@ -503,7 +510,7 @@ if you contacted me before making any changes to this software.
 		  </binding>
 		</action>
   </animation>
-  
+
 	<model>
 	 <name>Loader2</name>
 	 <path>Aircraft/707/Models/belly.xml</path>
@@ -513,7 +520,7 @@ if you contacted me before making any changes to this software.
 		<z-m>0</z-m>
 	 </offsets>
 	</model>
-	
+
 	<animation>
 		<type>select</type>
 		<object-name>Loader2</object-name>
@@ -530,7 +537,7 @@ if you contacted me before making any changes to this software.
 		  </and>
 		</condition>
 	</animation>
-	
+
   <animation>
       <type>translate</type>
       <object-name>Loader2</object-name>
@@ -546,7 +553,7 @@ if you contacted me before making any changes to this software.
           <z> 0.0</z>
       </axis>
   </animation>
-  
+
   <animation>
 		<type>pick</type>
 		<object-name>Loader2</object-name>
@@ -560,7 +567,7 @@ if you contacted me before making any changes to this software.
 		  </binding>
 		</action>
   </animation>
-  
+
   	<model>
 	 <name>Loader3</name>
 	 <path>Aircraft/707/Models/bellyLoader.xml</path>
@@ -570,7 +577,7 @@ if you contacted me before making any changes to this software.
 		<z-m>0</z-m>
 	 </offsets>
 	</model>
-	
+
 	<animation>
 		<type>select</type>
 		<object-name>Loader3</object-name>
@@ -587,7 +594,7 @@ if you contacted me before making any changes to this software.
 		  </and>
 		</condition>
 	</animation>
-	
+
   <animation>
       <type>translate</type>
       <object-name>Loader3</object-name>
@@ -602,7 +609,7 @@ if you contacted me before making any changes to this software.
           <z> 0.0</z>
       </axis>
   </animation>
-  
+
   <animation>
 		<type>pick</type>
 		<object-name>Loader3</object-name>
@@ -628,9 +635,9 @@ if you contacted me before making any changes to this software.
   	<object-name>doorRL</object-name>
 		<condition>
 			<not><property>sim/multiplay/generic/int[19]</property></not>
-		</condition>	
+		</condition>
 	</animation>
-	
+
   <!-- shadow without rembrandt -->
 	<model>
 		<name>NewShadow</name>
@@ -644,11 +651,10 @@ if you contacted me before making any changes to this software.
 			<and>
 				<not><property>sim/multiplay/generic/int[19]</property></not>
 				<not><property>/sim/rendering/rembrandt/enabled</property></not>
-				<not><property>/sim/rendering/shadows/enabled</property></not>
 			</and>
 		</condition>
 	</animation>v
-  
+
 	<!-- animate the doors and the nose -->
 	<animation>
       <type>rotate</type>
@@ -669,11 +675,11 @@ if you contacted me before making any changes to this software.
 
   <animation>
 		<type>pick</type>
-		<object-name>nose</object-name>		
+		<object-name>nose</object-name>
 		<action>
 		  <button>0</button>
 		  <repeatable>true</repeatable>
-		  <interval-sec>0.2</interval-sec>	
+		  <interval-sec>0.2</interval-sec>
 		  <binding>
 		   <command>nasal</command>
 		   <script>b707.doorsystem.noseexport();</script>
@@ -713,7 +719,7 @@ if you contacted me before making any changes to this software.
 		  </binding>
 		</action>
   </animation>
-  
+
 	<animation>
       <type>rotate</type>
       <object-name>doorRL</object-name>
@@ -747,8 +753,8 @@ if you contacted me before making any changes to this software.
 		   <script>b707.doorsystem.pasrearexport();</script>
 		  </binding>
 		</action>
-  </animation>	
-  
+  </animation>
+
 	<animation>
       <type>rotate</type>
       <object-name>doorCargo</object-name>
@@ -771,7 +777,7 @@ if you contacted me before making any changes to this software.
   </animation>
 
   <animation>
-		<type>pick</type>		
+		<type>pick</type>
 		<object-name>doorCargo</object-name>
 		<action>
 		  <button>0</button>
@@ -783,7 +789,7 @@ if you contacted me before making any changes to this software.
 		  </binding>
 		</action>
   </animation>
-  
+
 	<animation>
       <type>rotate</type>
       <object-name>doorBelly</object-name>
@@ -805,7 +811,7 @@ if you contacted me before making any changes to this software.
   </animation>
 
   <animation>
-		<type>pick</type>		
+		<type>pick</type>
 		<object-name>doorBelly</object-name>
 		<action>
 		  <button>0</button>
@@ -816,8 +822,8 @@ if you contacted me before making any changes to this software.
 		   <script>b707.doorsystem.bellyexport();</script>
 		  </binding>
 		</action>
-  </animation>	
-    
+  </animation>
+
 <!-- Emergency slide-->
 	<model>
 		<name>EmergencySlide</name>
@@ -828,7 +834,7 @@ if you contacted me before making any changes to this software.
       <z-m>0</z-m>
 		</offsets>
 	</model>
-	
+
  	<animation>
 		<type>select</type>
 		<object-name>EmergencySlide</object-name>
@@ -840,7 +846,7 @@ if you contacted me before making any changes to this software.
 						<value>0.1</value>
 				</less-than>
 			</and>
-		</condition>	
+		</condition>
 	</animation>
 
 <!-- Front-->
@@ -854,7 +860,7 @@ if you contacted me before making any changes to this software.
 		<object-name>LeftGearBase</object-name>
 		<object-name>LeftGearCompressor</object-name>
 		<object-name>LeftGearCompressor1</object-name>
-		<object-name>RightGear</object-name>	
+		<object-name>RightGear</object-name>
 		<object-name>RightGear.001</object-name>
 		<object-name>RightGearBase</object-name>
 		<object-name>RightGearCompressor</object-name>
@@ -873,7 +879,7 @@ if you contacted me before making any changes to this software.
 		<object-name>NGearStrut</object-name>
 		<object-name>NoseWheel</object-name>
  </animation>
- 
+
 	<model>
 		<name>NoseGearSmoke</name>
 		<path>Aircraft/707/Models/Effects/tyre-smoke-nose.xml</path>
@@ -900,7 +906,7 @@ if you contacted me before making any changes to this software.
           <z-m>-2.503</z-m>
       </center>
   </animation>
-	
+
   <animation>
     <type>translate</type>
 		<object-name>Frontgear</object-name>
@@ -909,7 +915,7 @@ if you contacted me before making any changes to this software.
       <entry><ind> 0 </ind><dep> 0.0 </dep></entry>
       <entry><ind> 1 </ind><dep> 0.4 </dep></entry>
     </interpolation>
-    <axis>   
+    <axis>
       <x1-m> -15.678</x1-m>
       <y1-m>  0.00</y1-m>
       <z1-m> -1.00</z1-m>
@@ -929,7 +935,7 @@ if you contacted me before making any changes to this software.
 				 	<value>0.9</value>
 				</greater-than>
 			</condition>
-      <factor>-25</factor>
+      <factor>70</factor>
       <center>
           <x-m>-15.58</x-m>
           <y-m>  0.0</y-m>
@@ -978,11 +984,11 @@ if you contacted me before making any changes to this software.
 
  <animation>
   <type>rotate</type>
-  <object-name>lhngdoor</object-name>   
+  <object-name>lhngdoor</object-name>
   <property>gear/gear[0]/position-norm</property>
 	<condition>
 		<not><property>sim/multiplay/generic/int[19]</property></not>
-	</condition>			
+	</condition>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1000,7 +1006,7 @@ if you contacted me before making any changes to this software.
       <ind>1.0</ind>
       <dep>0.0</dep>
     </entry>
-  </interpolation>   
+  </interpolation>
   <center>
    <x-m>-17.49</x-m>
    <y-m>-0.48</y-m>
@@ -1015,11 +1021,11 @@ if you contacted me before making any changes to this software.
 
  <animation>
   <type>rotate</type>
-  <object-name>lhngdooraft</object-name>   
-  <property>gear/gear[0]/position-norm</property>	
+  <object-name>lhngdooraft</object-name>
+  <property>gear/gear[0]/position-norm</property>
   <condition>
 		<not><property>sim/multiplay/generic/int[19]</property></not>
-	</condition>	
+	</condition>
   <interpolation>
     <entry>
       <ind>0.0</ind>
@@ -1052,7 +1058,7 @@ if you contacted me before making any changes to this software.
 
  <animation>
   <type>rotate</type>
-  <object-name>rhngdoor</object-name>   
+  <object-name>rhngdoor</object-name>
   <property>gear/gear[0]/position-norm</property>
   <interpolation>
     <entry>
@@ -1086,7 +1092,7 @@ if you contacted me before making any changes to this software.
 
  <animation>
   <type>rotate</type>
-  <object-name>rhngdooraft</object-name>   
+  <object-name>rhngdooraft</object-name>
   <property>gear/gear[0]/position-norm</property>
   <interpolation>
     <entry>
@@ -1116,8 +1122,8 @@ if you contacted me before making any changes to this software.
    <y>0.0</y>
    <z>-0.11</z>
   </axis>
- </animation> 
- 
+ </animation>
+
 	<model>
 		<name>RightGearBase</name>
 		<path>Aircraft/707/Models/wheels.xml</path>
@@ -1157,7 +1163,7 @@ if you contacted me before making any changes to this software.
 		  <y-m>-2.53</y-m>
 		  <z-m>-2.94</z-m>
 		</offsets>
-	</model>  
+	</model>
 
 <!--Left-->
   <animation>
@@ -1170,7 +1176,7 @@ if you contacted me before making any changes to this software.
 		<object-name>LeftGearCompressor1</object-name>
   	<property>gear/gear[1]/position-norm</property>
     <factor>-0.3</factor>
-    <axis>   
+    <axis>
 		 <x>0</x>
 		 <y>1</y>
 		 <z>0</z>
@@ -1178,7 +1184,7 @@ if you contacted me before making any changes to this software.
   </animation>
 
  <animation>
-  <type>rotate</type>   
+  <type>rotate</type>
 	<object-name>LeftGear</object-name>
 	<object-name>LeftGear.001</object-name>
 	<object-name>LeftGearBase</object-name>
@@ -1198,9 +1204,9 @@ if you contacted me before making any changes to this software.
    <x>1</x>
    <y>0</y>
    <z>0</z>
-  </axis>  
+  </axis>
  </animation>
-	
+
   <animation>
     <type>translate</type>
 		<object-name>LeftGear</object-name>
@@ -1212,7 +1218,7 @@ if you contacted me before making any changes to this software.
       <entry><ind> 0 </ind><dep> 0.0 </dep></entry>
       <entry><ind> 1 </ind><dep> 0.1 </dep></entry>
     </interpolation>
-    <axis>   
+    <axis>
       <x1-m>  1.82</x1-m>
 			<y1-m>  2.47</y1-m>
       <z1-m> -1.88</z1-m>
@@ -1221,9 +1227,9 @@ if you contacted me before making any changes to this software.
       <z2-m> -0.80</z2-m>
     </axis>
   </animation>
- 
+
   <animation>
-  <type>rotate</type>   
+  <type>rotate</type>
 	<object-name>LeftGear.001</object-name>
   <property>gear/gear[1]/position-norm</property>
   <interpolation>
@@ -1240,13 +1246,13 @@ if you contacted me before making any changes to this software.
    <x>1</x>
    <y>0</y>
    <z>0</z>
-  </axis>  
+  </axis>
  </animation>
- 
+
  <animation>
   <type>rotate</type>
-  <object-name>mgdoora</object-name>  
-  <object-name>mgdoorb</object-name>           
+  <object-name>mgdoora</object-name>
+  <object-name>mgdoorb</object-name>
   <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry><ind>0.0</ind><dep>  0.0</dep></entry>
@@ -1257,21 +1263,21 @@ if you contacted me before making any changes to this software.
    <x-m> 1.48</x-m>
    <y-m>-2.59</y-m>
    <z-m>-1.0</z-m>
-  </center>	
+  </center>
   <axis>
    <x>1</x>
    <y>0</y>
    <z>0</z>
-  </axis>  
+  </axis>
  </animation>
- 
+
   <animation>
     <type>translate</type>
-		<object-name>mgdoora</object-name>  
-		<object-name>mgdoorb</object-name>   
+		<object-name>mgdoora</object-name>
+		<object-name>mgdoorb</object-name>
   	<property>gear/gear[1]/position-norm</property>
     <factor>-0.7</factor>
-    <axis>   
+    <axis>
       <x1-m>  1.82</x1-m>
 			<y1-m>  2.47</y1-m>
       <z1-m> -1.40</z1-m>
@@ -1280,10 +1286,10 @@ if you contacted me before making any changes to this software.
       <z2-m> -0.92</z2-m>
     </axis>
   </animation>
- 
+
  <animation>
-  <type>rotate</type> 
-  <object-name>mgdoorc</object-name>            
+  <type>rotate</type>
+  <object-name>mgdoorc</object-name>
   <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry><ind>0.0</ind><dep>  0.0</dep></entry>
@@ -1294,17 +1300,17 @@ if you contacted me before making any changes to this software.
    <x-m> 1.48</x-m>
    <y-m>-3.20</y-m>
    <z-m>-0.85</z-m>
-  </center>	
+  </center>
   <axis>
    <x>1</x>
    <y>0</y>
    <z>0</z>
-  </axis>  
+  </axis>
  </animation>
 
 <animation>
-  <type>rotate</type>   
-  <object-name>mgdoorb</object-name>           
+  <type>rotate</type>
+  <object-name>mgdoorb</object-name>
   <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry><ind>0.0</ind><dep>   0.0</dep></entry>
@@ -1321,11 +1327,11 @@ if you contacted me before making any changes to this software.
   </axis>
  </animation>
 
- 
+
 <!-- Right-->
   <animation>
     <type>translate</type>
-		<object-name>RightGear</object-name>	
+		<object-name>RightGear</object-name>
 		<object-name>RightGear.001</object-name>
 		<object-name>RightGearBase</object-name>
 		<object-name>RightGearSmoke</object-name>
@@ -1333,16 +1339,16 @@ if you contacted me before making any changes to this software.
 		<object-name>RightGearCompressor1</object-name>
   	<property>gear/gear[1]/position-norm</property>
     <factor> 0.3</factor>
-    <axis>   
+    <axis>
 		 <x>0</x>
 		 <y>1</y>
 		 <z>0</z>
     </axis>
   </animation>
-  
+
  <animation>
-  <type>rotate</type>   
-	<object-name>RightGear</object-name>	
+  <type>rotate</type>
+	<object-name>RightGear</object-name>
 	<object-name>RightGear.001</object-name>
 	<object-name>RightGearBase</object-name>
 	<object-name>RightGearCompressor</object-name>
@@ -1361,9 +1367,9 @@ if you contacted me before making any changes to this software.
    <x>1</x>
    <y>0</y>
    <z>0</z>
-  </axis>  
+  </axis>
  </animation>
-	
+
   <animation>
     <type>translate</type>
 		<object-name>RightGear</object-name>
@@ -1375,7 +1381,7 @@ if you contacted me before making any changes to this software.
       <entry><ind> 0 </ind><dep> 0.0 </dep></entry>
       <entry><ind> 1 </ind><dep> 0.1 </dep></entry>
     </interpolation>
-    <axis>   
+    <axis>
       <x1-m>  1.82</x1-m>
 			<y1-m> -2.47</y1-m>
       <z1-m> -1.88</z1-m>
@@ -1384,9 +1390,9 @@ if you contacted me before making any changes to this software.
       <z2-m> -0.80</z2-m>
     </axis>
   </animation>
-  
+
   <animation>
-  <type>rotate</type>   
+  <type>rotate</type>
 	<object-name>RightGear.001</object-name>
   <property>gear/gear[2]/position-norm</property>
   <interpolation>
@@ -1403,13 +1409,13 @@ if you contacted me before making any changes to this software.
    <x>1</x>
    <y>0</y>
    <z>0</z>
-  </axis>  
+  </axis>
  </animation>
 
  <animation>
   <type>rotate</type>
-  <object-name>rhmgdoora</object-name>  
-  <object-name>rhmgdoorb</object-name>           
+  <object-name>rhmgdoora</object-name>
+  <object-name>rhmgdoorb</object-name>
   <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry><ind>0.0</ind><dep>  0.0</dep></entry>
@@ -1420,21 +1426,21 @@ if you contacted me before making any changes to this software.
    <x-m> 1.48</x-m>
    <y-m> 2.59</y-m>
    <z-m>-1.0</z-m>
-  </center>	
+  </center>
   <axis>
    <x>1</x>
    <y>0</y>
    <z>0</z>
-  </axis>  
+  </axis>
  </animation>
- 
+
   <animation>
     <type>translate</type>
-		<object-name>rhmgdoora</object-name>  
-		<object-name>rhmgdoorb</object-name>   
+		<object-name>rhmgdoora</object-name>
+		<object-name>rhmgdoorb</object-name>
   	<property>gear/gear[1]/position-norm</property>
     <factor>-0.7</factor>
-    <axis>   
+    <axis>
       <x1-m>  1.82</x1-m>
 			<y1-m> -2.47</y1-m>
       <z1-m> -1.40</z1-m>
@@ -1443,10 +1449,10 @@ if you contacted me before making any changes to this software.
       <z2-m> -0.92</z2-m>
     </axis>
   </animation>
- 
+
  <animation>
-  <type>rotate</type> 
-  <object-name>rhmgdoorc</object-name>            
+  <type>rotate</type>
+  <object-name>rhmgdoorc</object-name>
   <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry><ind>0.0</ind><dep>  0.0</dep></entry>
@@ -1457,17 +1463,17 @@ if you contacted me before making any changes to this software.
    <x-m> 1.48</x-m>
    <y-m> 3.20</y-m>
    <z-m>-0.85</z-m>
-  </center>	
+  </center>
   <axis>
    <x>1</x>
    <y>0</y>
    <z>0</z>
-  </axis>  
+  </axis>
  </animation>
 
 <animation>
-  <type>rotate</type>   
-  <object-name>rhmgdoorb</object-name>           
+  <type>rotate</type>
+  <object-name>rhmgdoorb</object-name>
   <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry><ind>0.0</ind><dep>   0.0</dep></entry>
@@ -1483,11 +1489,11 @@ if you contacted me before making any changes to this software.
     <z2-m> -1.07</z2-m>
   </axis>
  </animation>
- 
+
  <animation>
   <type>rotate</type>
   <object-name>rhdoorinner</object-name>
-  <object-name>rhdoorouter</object-name>      
+  <object-name>rhdoorouter</object-name>
   <property>gear/gear[2]/position-norm</property>
   <interpolation>
     <entry>
@@ -1521,7 +1527,7 @@ if you contacted me before making any changes to this software.
 
  <animation>
   <type>rotate</type>
-  <object-name>rhdoorouter</object-name>   
+  <object-name>rhdoorouter</object-name>
   <property>gear/gear[2]/position-norm</property>
   <interpolation>
     <entry>
@@ -1551,12 +1557,12 @@ if you contacted me before making any changes to this software.
    <y>0</y>
    <z>0</z>
   </axis>
- </animation> 
+ </animation>
 
  <animation>
   <type>rotate</type>
-  <object-name>lhdoorinner</object-name>   
-  <object-name>lhdoorouter</object-name>   
+  <object-name>lhdoorinner</object-name>
+  <object-name>lhdoorouter</object-name>
   <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry>
@@ -1590,7 +1596,7 @@ if you contacted me before making any changes to this software.
 
  <animation>
   <type>rotate</type>
-  <object-name>lhdoorouter</object-name>   
+  <object-name>lhdoorouter</object-name>
   <property>gear/gear[1]/position-norm</property>
   <interpolation>
     <entry>
@@ -1621,10 +1627,10 @@ if you contacted me before making any changes to this software.
    <z>0</z>
   </axis>
  </animation>
- 
+
 	 <animation>
 		<type>rotate</type>
-		<object-name>LeftGearBase</object-name>		
+		<object-name>LeftGearBase</object-name>
 		<object-name>RightGearBase</object-name>
 		<property>sim/multiplay/generic/float[3]</property>
 		<interpolation>
@@ -1649,8 +1655,8 @@ if you contacted me before making any changes to this software.
   <type>translate</type>
   <object-name>lhibail</object-name>
   <object-name>lhobail</object-name>
-  <property>surface-positions/aileron-left-norm</property>
-  <interpolation>    
+  <property>controls/flight/aileron</property>
+  <interpolation>
   	<entry>
       <ind>-1.0</ind>
       <dep> 0.05</dep>
@@ -1666,7 +1672,7 @@ if you contacted me before making any changes to this software.
     <entry>
       <ind> 0.10</ind>
       <dep> 0.05</dep>
-    </entry>     
+    </entry>
     <entry>
       <ind> 1.0</ind>
       <dep> 0.05</dep>
@@ -1682,9 +1688,9 @@ if you contacted me before making any changes to this software.
  <animation>
   <type>rotate</type>
   <object-name>lhibail</object-name>
-  <property>surface-positions/aileron-left-norm</property>
-  <factor>-25</factor>
-  <offset-deg>0</offset-deg>   
+  <property>controls/flight/aileron</property>
+  <factor>-30</factor>
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m>  4.32</x1-m>
 		<y1-m> -9.01</y1-m>
@@ -1698,9 +1704,9 @@ if you contacted me before making any changes to this software.
  <animation>
   <type>rotate</type>
   <object-name>lhobail</object-name>
-  <property>surface-positions/aileron-left-norm</property>
-  <factor>-25</factor>
-  <offset-deg>0</offset-deg>   
+  <property>controls/flight/aileron</property>
+  <factor>-30</factor>
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m>  7.35</x1-m>
 		<y1-m>-14.57</y1-m>
@@ -1710,13 +1716,13 @@ if you contacted me before making any changes to this software.
     <z2-m>  0.86</z2-m>
   </axis>
  </animation>
- 
+
  <animation>
   <type>translate</type>
   <object-name>rhibail</object-name>
   <object-name>rhobail</object-name>
-  <property>surface-positions/aileron-right-norm</property>
-  <interpolation>    
+  <property>controls/flight/aileron</property>
+  <interpolation>
   	<entry>
       <ind>-1.0</ind>
       <dep> 0.05</dep>
@@ -1732,7 +1738,7 @@ if you contacted me before making any changes to this software.
     <entry>
       <ind> 0.10</ind>
       <dep> 0.05</dep>
-    </entry>     
+    </entry>
     <entry>
       <ind> 1.0</ind>
       <dep> 0.05</dep>
@@ -1748,9 +1754,9 @@ if you contacted me before making any changes to this software.
  <animation>
   <type>rotate</type>
   <object-name>rhibail</object-name>
-  <property>surface-positions/aileron-right-norm</property>
-  <factor>-25</factor>
-  <offset-deg>0</offset-deg>   
+  <property>controls/flight/aileron</property>
+  <factor>-30</factor>
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m>  4.32</x1-m>
 		<y1-m>  9.01</y1-m>
@@ -1764,9 +1770,9 @@ if you contacted me before making any changes to this software.
  <animation>
   <type>rotate</type>
   <object-name>rhobail</object-name>
-  <property>surface-positions/aileron-right-norm</property>
-  <factor>-25</factor>
-  <offset-deg>0</offset-deg>   
+  <property>controls/flight/aileron</property>
+  <factor>-30</factor>
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m>  7.35</x1-m>
 		<y1-m> 14.57</y1-m>
@@ -1780,9 +1786,9 @@ if you contacted me before making any changes to this software.
  <animation>
   <type>rotate</type>
   <object-name>lhelevator</object-name>
-  <property>surface-positions/elevator-norm</property>
-  <factor>25</factor>
-  <offset-deg>0</offset-deg>   
+  <property>controls/flight/elevator</property>
+  <factor>15</factor>
+  <offset-deg>0</offset-deg>
   <center>
    <x-m>21.3</x-m>
    <y-m>-0.41</y-m>
@@ -1798,9 +1804,9 @@ if you contacted me before making any changes to this software.
  <animation>
   <type>rotate</type>
   <object-name>rhelevator</object-name>
-  <property>surface-positions/elevator-norm</property>
-  <factor>25</factor>
-  <offset-deg>0</offset-deg>   
+  <property>controls/flight/elevator</property>
+  <factor>15</factor>
+  <offset-deg>0</offset-deg>
   <center>
    <x-m>21.3</x-m>
    <y-m>0.41</y-m>
@@ -1817,9 +1823,9 @@ if you contacted me before making any changes to this software.
   <type>rotate</type>
   <object-name>rudder</object-name>
   <object-name>rudderWithLight</object-name>
-  <property>surface-positions/rudder-norm</property>
-  <factor>-25</factor>
-  <offset-deg>0</offset-deg>   
+  <property>controls/flight/rudder</property>
+  <factor>-22.5</factor>
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m> 22.57</x1-m>
 		<y1-m>  0.00</y1-m>
@@ -1829,7 +1835,7 @@ if you contacted me before making any changes to this software.
     <z2-m>  2.15</z2-m>
   </axis>
  </animation>
- 
+
  <!-- slats / also called leading edge flaps LE FLAPS -->
   <animation>
   <type>rotate</type>
@@ -1843,7 +1849,7 @@ if you contacted me before making any changes to this software.
     <entry>
       <ind>0.10</ind>
       <dep>80.0</dep>
-    </entry>     
+    </entry>
     <entry>
       <ind>1.0</ind>
       <dep>80.0</dep>
@@ -1871,7 +1877,7 @@ if you contacted me before making any changes to this software.
     <entry>
       <ind>0.10</ind>
       <dep>-80.0</dep>
-    </entry>     
+    </entry>
     <entry>
       <ind>1.0</ind>
       <dep>-80.0</dep>
@@ -1886,13 +1892,13 @@ if you contacted me before making any changes to this software.
     <z2-m>  0.8898</z2-m>
   </axis>
  </animation>
-  
+
   <animation>
   <type>rotate</type>
   <object-name>lhobflap</object-name>
   <property>surface-positions/flap-pos-norm</property>
   <factor>-45</factor>
-  <offset-deg>0</offset-deg>   
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m>  5.34</x1-m>
 		<y1-m>-10.69</y1-m>
@@ -1902,7 +1908,7 @@ if you contacted me before making any changes to this software.
     <z2-m>  0.41</z2-m>
   </axis>
  </animation>
- 
+
  <animation>
   <type>translate</type>
   <object-name>lhobflap</object-name>
@@ -1915,7 +1921,7 @@ if you contacted me before making any changes to this software.
     <entry>
       <ind>0.10</ind>
       <dep> 0.5</dep>
-    </entry>     
+    </entry>
     <entry>
       <ind>1.0</ind>
       <dep> 0.5</dep>
@@ -1936,7 +1942,7 @@ if you contacted me before making any changes to this software.
   <object-name>lhibflap</object-name>
   <property>surface-positions/flap-pos-norm</property>
   <factor>-45</factor>
-  <offset-deg>0</offset-deg>   
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m>  2.57</x1-m>
 		<y1-m> -3.84</y1-m>
@@ -1945,14 +1951,14 @@ if you contacted me before making any changes to this software.
     <y2-m> -8.86</y2-m>
     <z2-m> -0.16</z2-m>
   </axis>
- </animation> 
+ </animation>
 
  <animation>
   <type>rotate</type>
   <object-name>lhfiletflap</object-name>
   <property>surface-positions/flap-pos-norm</property>
   <factor>-45</factor>
-  <offset-deg>0</offset-deg>    
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m>  2.84</x1-m>
 		<y1-m> -1.94</y1-m>
@@ -1976,7 +1982,7 @@ if you contacted me before making any changes to this software.
     <entry>
       <ind>0.10</ind>
       <dep>-0.5</dep>
-    </entry>     
+    </entry>
     <entry>
       <ind>1.0</ind>
       <dep>-0.5</dep>
@@ -1988,13 +1994,13 @@ if you contacted me before making any changes to this software.
    <z> 0.0</z>
   </axis>
  </animation>
- 
+
  <animation>
   <type>rotate</type>
   <object-name>rhobflap</object-name>
   <property>surface-positions/flap-pos-norm</property>
   <factor>45</factor>
-  <offset-deg>0</offset-deg>     
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m>  5.35</x1-m>
 		<y1-m> 10.70</y1-m>
@@ -2017,7 +2023,7 @@ if you contacted me before making any changes to this software.
     <entry>
       <ind>0.10</ind>
       <dep> 0.5</dep>
-    </entry>     
+    </entry>
     <entry>
       <ind>1.0</ind>
       <dep> 0.5</dep>
@@ -2038,7 +2044,7 @@ if you contacted me before making any changes to this software.
   <object-name>rhibflap</object-name>
   <property>surface-positions/flap-pos-norm</property>
   <factor>45</factor>
-  <offset-deg>0</offset-deg>   
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m>  2.57</x1-m>
 		<y1-m>  3.84</y1-m>
@@ -2054,7 +2060,7 @@ if you contacted me before making any changes to this software.
   <object-name>rhfiletflap</object-name>
   <property>surface-positions/flap-pos-norm</property>
   <factor>45</factor>
-  <offset-deg>0</offset-deg>    
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m>  2.84</x1-m>
 		<y1-m>  1.94</y1-m>
@@ -2078,7 +2084,7 @@ if you contacted me before making any changes to this software.
     <entry>
       <ind>0.10</ind>
       <dep>0.5</dep>
-    </entry>     
+    </entry>
     <entry>
       <ind>1.0</ind>
       <dep>0.5</dep>
@@ -2096,7 +2102,7 @@ if you contacted me before making any changes to this software.
   <object-name>lhsp1</object-name>
   <property>surface-positions/speedbrake-pos-norm</property>
   <factor>59</factor>
-  <offset-deg>0</offset-deg>   
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m>  4.87</x1-m>
 		<y1-m>-11.26</y1-m>
@@ -2105,14 +2111,14 @@ if you contacted me before making any changes to this software.
     <y2-m>-14.09</y2-m>
     <z2-m>  0.46</z2-m>
   </axis>
- </animation>  
+ </animation>
 
   <animation>
   <type>rotate</type>
   <object-name>lhsp3</object-name>
   <property>surface-positions/speedbrake-pos-norm</property>
   <factor>59</factor>
-  <offset-deg>0</offset-deg>   
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m>  1.98</x1-m>
 		<y1-m> -4.30</y1-m>
@@ -2128,7 +2134,7 @@ if you contacted me before making any changes to this software.
   <object-name>rhsp1</object-name>
   <property>surface-positions/speedbrake-pos-norm</property>
   <factor>-59</factor>
-  <offset-deg>0</offset-deg>   
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m>  4.87</x1-m>
 		<y1-m> 11.26</y1-m>
@@ -2137,14 +2143,14 @@ if you contacted me before making any changes to this software.
     <y2-m> 14.09</y2-m>
     <z2-m>  0.46</z2-m>
   </axis>
- </animation>  
+ </animation>
 
  <animation>
   <type>rotate</type>
-  <object-name>rhsp3</object-name>   
+  <object-name>rhsp3</object-name>
   <property>surface-positions/speedbrake-pos-norm</property>
   <factor>-59</factor>
-  <offset-deg>0</offset-deg>  
+  <offset-deg>0</offset-deg>
   <axis>
 		<x1-m>  1.98</x1-m>
 		<y1-m>  4.30</y1-m>
@@ -2154,7 +2160,7 @@ if you contacted me before making any changes to this software.
     <z2-m> -0.15</z2-m>
   </axis>
  </animation>
- 
+
  <!--cockpit -->
 	<model>
 		<name>cockpit</name>
@@ -2165,7 +2171,7 @@ if you contacted me before making any changes to this software.
 		  <z-m>0.0</z-m>
 		</offsets>
 	</model>
-	
+
 	<model>
 		<name>registrationCockpitPanel</name>
 	  <path>Aircraft/707/Models/Registration/flightnumber.xml</path>
@@ -2183,7 +2189,7 @@ if you contacted me before making any changes to this software.
 	  </overlay>
 	</model>
 
-	<model> 
+	<model>
 		<name>theCabin</name>
 		<path>Aircraft/707/Models/cabin.xml</path>
 	</model>
@@ -2192,15 +2198,22 @@ if you contacted me before making any changes to this software.
 		<type>select</type>
 		<object-name>theCabin</object-name>
 		<condition>
-			<equals>
+			<or>
+        <equals>
 				<property>/sim/current-view/name</property>
-				<value type="string">Passengers View</value>
-			</equals>
+				<value type="string">Passengers View 1</value>
+        </equals>
+
+        <equals>
+				<property>/sim/current-view/name</property>
+				<value type="string">Passengers View 2</value>
+        </equals>
+      </or>
 			<not><property>sim/multiplay/generic/int[9]</property></not>
-		</condition>	
+		</condition>
 	</animation>
 
-	<model> 
+	<model>
 		<name>theContainerInside</name>
 		<path>Aircraft/707/Models/container.xml</path>
 	</model>
@@ -2209,20 +2222,27 @@ if you contacted me before making any changes to this software.
 		<type>select</type>
 		<object-name>theContainerInside</object-name>
 		<condition>
-			<equals>
+      <or>
+        <equals>
 				<property>/sim/current-view/name</property>
-				<value type="string">Passengers View</value>
-			</equals>
+				<value type="string">Passengers View 1</value>
+        </equals>
+
+        <equals>
+				<property>/sim/current-view/name</property>
+				<value type="string">Passengers View 2</value>
+        </equals>
+      </or>
 			<property>sim/multiplay/generic/int[9]</property>
-		</condition>	
+		</condition>
 	</animation>
-	
+
     <animation>
      <type>translate</type>
      <object-name>cockpit</object-name>
 	 <object-name>registrationCockpitPanel</object-name>
 	 <object-name>theCabin</object-name>
-	 <object-name>theContainerInside</object-name>  
+	 <object-name>theContainerInside</object-name>
      <property>b707/shake-effect/shaking</property>
      <axis>
    		<x1-m>  0</x1-m>
@@ -2244,7 +2264,7 @@ if you contacted me before making any changes to this software.
 		  <z-m> -0.647</z-m>
 		</offsets>
 	</model>
-	
+
 	<model>
 		<name>engineTwo</name>
 		<path>Aircraft/707/Models/RCo10_2.xml</path>
@@ -2254,7 +2274,7 @@ if you contacted me before making any changes to this software.
 		  <z-m> -1.10</z-m>
 		</offsets>
 	</model>
-	
+
 	<model>
 		<name>engineThree</name>
 		<path>Aircraft/707/Models/RCo10_3.xml</path>
@@ -2264,7 +2284,7 @@ if you contacted me before making any changes to this software.
 		  <z-m> -1.10</z-m>
 		</offsets>
 	</model>
-	
+
 	<model>
 		<name>engineFour</name>
 		<path>Aircraft/707/Models/RCo10_4.xml</path>
@@ -2275,24 +2295,24 @@ if you contacted me before making any changes to this software.
 		</offsets>
 	</model>
 
-  <!-- crashed or pratt and whitney engines -->	
+  <!-- crashed or pratt and whitney engines -->
 	<animation>
 		<type>select</type>
 		<object-name>engineOne</object-name>
-		<object-name>engineThree</object-name>  
+		<object-name>engineThree</object-name>
 		<condition>
 			<not><property>sim/multiplay/generic/int[8]</property></not>
 			<not><property>sim/multiplay/generic/int[19]</property></not>
-		</condition>	
+		</condition>
 	</animation>
-	
+
 	<animation>
 		<type>select</type>
 		<object-name>engineTwo</object-name>
-		<object-name>engineFour</object-name>  
+		<object-name>engineFour</object-name>
 		<condition>
 			<not><property>sim/multiplay/generic/int[8]</property></not>
-		</condition>	
+		</condition>
 	</animation>
 
  <!--Pratt and Whitney JT4 engines -->
@@ -2305,7 +2325,7 @@ if you contacted me before making any changes to this software.
 		  <z-m> -0.73</z-m>
 		</offsets>
 	</model>
-	
+
 	<model>
 		<name>engineTwoPW</name>
 		<path>Aircraft/707/Models/PWJT4_2.xml</path>
@@ -2315,7 +2335,7 @@ if you contacted me before making any changes to this software.
 		  <z-m> -1.18</z-m>
 		</offsets>
 	</model>
-	
+
 	<model>
 		<name>engineThreePW</name>
 		<path>Aircraft/707/Models/PWJT4_3.xml</path>
@@ -2325,7 +2345,7 @@ if you contacted me before making any changes to this software.
 		  <z-m> -1.18</z-m>
 		</offsets>
 	</model>
-	
+
 	<model>
 		<name>engineFourPW</name>
 		<path>Aircraft/707/Models/PWJT4_4.xml</path>
@@ -2335,36 +2355,36 @@ if you contacted me before making any changes to this software.
 		  <z-m> -0.73</z-m>
 		</offsets>
 	</model>
-	
-  <!-- crashed or pratt and whitney engines selected -->	
+
+  <!-- crashed or pratt and whitney engines selected -->
 	<animation>
 		<type>select</type>
 		<object-name>engineOnePW</object-name>
-		<object-name>engineThreePW</object-name>  
+		<object-name>engineThreePW</object-name>
 		<condition>
 			<property>sim/multiplay/generic/int[8]</property>
 			<not><property>sim/multiplay/generic/int[19]</property></not>
-		</condition>	
+		</condition>
 	</animation>
-	
+
 	<animation>
 		<type>select</type>
 		<object-name>engineTwoPW</object-name>
-		<object-name>engineFourPW</object-name>  
+		<object-name>engineFourPW</object-name>
 		<condition>
 			<property>sim/multiplay/generic/int[8]</property>
-		</condition>	
+		</condition>
 	</animation>
-	
+
 	<model>
 		<name>ExternalLights</name>
-		<path>Aircraft/707/Models/Lights/707_Lights.xml</path>	
+		<path>Aircraft/707/Models/Lights/707_Lights.xml</path>
 		<offsets>
 			<x-m>0</x-m>
 			<y-m>0</y-m>
 			<z-m>0</z-m>
 		</offsets>
-	</model> 
+	</model>
 
 
 <!-- Fire , #1 -->
@@ -2684,7 +2704,7 @@ if you contacted me before making any changes to this software.
 				<less-than-equals>
 					<property>sim/multiplay/generic/float[8]</property>
 					<value>11</value>
-				</less-than-equals>					
+				</less-than-equals>
 				<or>
 					<equals>
 						<property>sim/multiplay/generic/int[18]</property>
@@ -2806,7 +2826,7 @@ if you contacted me before making any changes to this software.
   </overlay>
 </model>
 
-<!-- Registration (wingBottom) --> 
+<!-- Registration (wingBottom) -->
 <model>
 	<name>registrationWingBottom</name>
   <path>Aircraft/707/Models/Registration/registration.xml</path>
@@ -2911,7 +2931,7 @@ if you contacted me before making any changes to this software.
 			<property>sim/multiplay/generic/int[16]</property>
 			<value>3</value>
 		</equals>
-	</condition>	
+	</condition>
 </animation>
 
 <animation>
@@ -2937,7 +2957,5 @@ if you contacted me before making any changes to this software.
 		</equals>
 	</condition>
 </animation>
-  
+
 </PropertyList>
-
-
