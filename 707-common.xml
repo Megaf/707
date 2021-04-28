@@ -17,16 +17,18 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Every software has a developer, also free software. 
-As a gesture of courtesy and respect, I would be delighted 
-if you contacted me before making any changes to this software. 
+Every software has a developer, also free software.
+As a gesture of courtesy and respect, I would be delighted
+if you contacted me before making any changes to this software.
 <info (at) marc-kraus.de> April, 2017
 ########################################################################-->
 <PropertyList>
  <sim n="0">
   <description>Boeing 707</description>
   <author>Lake of Constance Hangar [Original from Innis Cunningham]</author>
-  <status>2.2.6</status>
+  <status>2.2.7</status>
+  <flight-model>jsb</flight-model>
+  <aero>707</aero>
   <virtual-cockpit archive="y">true</virtual-cockpit>
   <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
 
@@ -42,14 +44,14 @@ if you contacted me before making any changes to this software.
     <tag>1970s</tag>
     <tag>ifr</tag>
   </tags>
-  
+
   <rating>
       <FDM type="int">4</FDM>
       <systems type="int">5</systems>
       <cockpit type="int">5</cockpit>
       <model type="int">5</model>
   </rating>
-  
+
   <systems n="0">
     <autopilot n="0">
         <path>Aircraft/707/Systems/autopilot.xml</path>
@@ -59,7 +61,7 @@ if you contacted me before making any changes to this software.
 	<instrumentation>
     <path>Aircraft/707/Systems/instrumentation.xml</path>
   </instrumentation>
-  
+
   <model>
 	 <pushback>
 		<kp type="double">500</kp>
@@ -73,12 +75,24 @@ if you contacted me before making any changes to this software.
 	  <position-z-m type="float">0.1365</position-z-m>
 	  <jetway-hood-deg type="float">5</jetway-hood-deg>
 	 </door>
+   <door n="1">
+	  <position-x-m type="float">-15.836</position-x-m>
+	  <position-y-m type="float">-1.578</position-y-m>
+	  <position-z-m type="float">0.1365</position-z-m>
+	  <jetway-hood-deg type="float">5</jetway-hood-deg>
+	 </door>
+   <door n="2">
+	  <position-x-m type="float">-15.836</position-x-m>
+	  <position-y-m type="float">-1.578</position-y-m>
+	  <position-z-m type="float">0.1365</position-z-m>
+	  <jetway-hood-deg type="float">5</jetway-hood-deg>
+	 </door>
 	 <ramp>
       <x-m type="float">-15.68</x-m>
       <class type="string">3</class>
 	</ramp>
   </model>
-  
+
 	<airport>
 		<runways>
 			<start-offset-m>30</start-offset-m>
@@ -89,8 +103,8 @@ if you contacted me before making any changes to this software.
       <path>Aircraft/707/Sounds/707-sound.xml</path>
       <switch type = "bool">0</switch>
       <stall-horn type="bool">0</stall-horn>
-  </sound> 
-  
+  </sound>
+
 	<tutorials>
 		<tutorial include="Tutorials/707-startup-german.xml"/>
 		<tutorial include="Tutorials/707-startup-english.xml"/>
@@ -126,6 +140,12 @@ if you contacted me before making any changes to this software.
    </config>
   </view>
   <view n="1">
+   <config>
+     <!-- big plane, so extend chase view offset a bit -->
+     <z-offset-m type="double"  archive="y">-50.0</z-offset-m>
+   </config>
+  </view>
+  <view n="2">
    <config>
      <!-- big plane, so extend chase view offset a bit -->
      <z-offset-m type="double"  archive="y">-50.0</z-offset-m>
@@ -177,7 +197,7 @@ if you contacted me before making any changes to this software.
 			<front-right-direction-deg type="double">315</front-right-direction-deg>
 			<dynamic-view type="bool">true</dynamic-view>
     </config>
-	</view> 
+	</view>
 	<view n="103">
     <name>Officer View</name>
     <enabled type="bool">true</enabled>
@@ -222,10 +242,10 @@ if you contacted me before making any changes to this software.
 			<dynamic-view type="bool">true</dynamic-view>
     </config>
 	</view>
-		
+
   <chase-distance-m>-45</chase-distance-m>
-	
-	<multiplay>  
+
+	<multiplay>
     <generic>
 		<int n="0" alias="/controls/lighting/landing-light"/> 									<!-- landing light nose wheel -->
 		<int n="1" alias="/controls/lighting/landing-light[1]"/> 								<!-- landing light left and right -->
@@ -269,7 +289,7 @@ if you contacted me before making any changes to this software.
 		<!-- <string n="0" alias="/sim/multiplay/callsign"/>									will be init in the registration.nas DO NOT USE string[0] for other properties -->
     </generic>
   </multiplay>
- 
+
   <flight-recorder include="Systems/flightrecorder.xml"/>
 
   <flaps>
@@ -279,7 +299,7 @@ if you contacted me before making any changes to this software.
     <setting>0.6</setting>	<!-- 60% approach-->
     <setting>1.0</setting>	<!-- 100% landing -->
   </flaps>
-  
+
 	<aircraft-data>
 		<path>instrumentation/operating-time/total</path>
 	</aircraft-data>
@@ -330,11 +350,11 @@ if you contacted me before making any changes to this software.
 			<kw type="double">0</kw>
 		</engine>
 	</engines>
- 
+
 	<input>
 		<keyboard include="Systems/keyboard.xml"/>
 	</input>
- 
+
 	<autopilot>
 		<settings>
 		    <target-speed-kt type="double">220</target-speed-kt>
@@ -352,7 +372,7 @@ if you contacted me before making any changes to this software.
 		  <appr type="bool">0</appr>
 		  <gps type="bool">0</gps>
 		  <selected-nav type="bool">1</selected-nav>
-		</switches> 
+		</switches>
 		<constant>
 			<flare-base type="double">0.2</flare-base>
 			<derate-lowalt type="double">0.77</derate-lowalt>
@@ -360,13 +380,13 @@ if you contacted me before making any changes to this software.
 			<descent-profile-high-rate type="double">-0.00096774</descent-profile-high-rate>
 			<descent-profile-low-base type="double">0.13</descent-profile-low-base>
 			<descent-profile-low-rate type="double">-0.00029032</descent-profile-low-rate>
-		</constant> 
+		</constant>
 		<Bendix-PB-20>
 			<controls>
 				<mode-selector type="int">2</mode-selector>	  <!-- 2 is manual control-->
-				<active type="bool">0</active>	  			  <!-- the AP engage switch -->	
-			</controls>	
-		</Bendix-PB-20> 
+				<active type="bool">0</active>	  			  <!-- the AP engage switch -->
+			</controls>
+		</Bendix-PB-20>
 	</autopilot>
 
  <controls>
@@ -425,7 +445,7 @@ if you contacted me before making any changes to this software.
     </gear>
 
  </controls>
- 
+
  <!-- the b707 folder most properties set in other files. These we need for the tutorial-->
  <b707>
  		<hydraulic>
@@ -526,9 +546,9 @@ if you contacted me before making any changes to this software.
 			<max-lb type="double"> 10000.0</max-lb>
 		</weight>
 	</payload>
-	
-	<instrumentation include="Systems/instrumentation-init.xml"/>	
-	
+
+	<instrumentation include="Systems/instrumentation-init.xml"/>
+
 	<limits>
 		<mass-and-balance>
 			<maximum-takeoff-mass-lbs>311000</maximum-takeoff-mass-lbs>
