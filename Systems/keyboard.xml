@@ -146,6 +146,7 @@ if you contacted me before making any changes to this software.
 						setprop("controls/engines/engine[1]/throttle", 0);
 						setprop("controls/engines/engine[2]/throttle", 0);
 						setprop("controls/engines/engine[3]/throttle", 0);
+						setprop("autopilot/locks/speed", "");
 				</script>
 		</binding>
 </key>
