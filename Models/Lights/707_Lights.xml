@@ -22,123 +22,126 @@ As a gesture of courtesy and respect, I would be delighted
 if you contacted me before making any changes to this software. 
 <info (at) marc-kraus.de> April, 2017
 ########################################################################-->
+
+<!-- Edited by Megaf - https://github.com/Megaf/ -->
 <PropertyList>
 
 <path>lights.ac</path>
 
 <!-- No preview for fgrun-->
 <animation>
-	<object-name>BeaconVolume_1</object-name>
-	<object-name>BeaconVolume_2</object-name>	
-	<object-name>NavLightVolume_left</object-name>
-	<object-name>NavLightVolume_right</object-name>
-	<object-name>NavLightBackVolume</object-name>
-  <object-name>LightBeaconGlow</object-name>	
-  <object-name>LightTaxiGlowH</object-name>
-  <object-name>LightTaxiGlowH.001</object-name>
-  <object-name>LightTaxiGlowH.002</object-name>
-  <object-name>LightTailGlow</object-name>
-  <object-name>LightNavGlowL</object-name>
-  <object-name>LightNavGlowR</object-name>
-	<object-name>LightVolume</object-name>
-	<object-name>LightVolume.001</object-name>
-	<object-name>LightVolume.002</object-name>
-  <object-name>Cone-texture</object-name>
-  <object-name>Cone-texture.001</object-name>
-  <object-name>Cone-texture.002</object-name>
-  <object-name>Strobes</object-name>
-  <object-name>Spot</object-name>
-  <object-name>Spot.001</object-name>
- 	<object-name>Spot.002</object-name>
-  <object-name>lightconeRudderL</object-name>
- 	<object-name>lightconeRudderR</object-name>	
-	<nopreview/>
+    <object-name>BeaconVolume_1</object-name>
+    <object-name>BeaconVolume_2</object-name>	
+    <object-name>NavLightVolume_left</object-name>
+    <object-name>NavLightVolume_right</object-name>
+    <object-name>NavLightBackVolume</object-name>
+    <object-name>LightBeaconGlow</object-name>	
+    <object-name>LightTaxiGlowH</object-name>
+    <object-name>LightTaxiGlowH.001</object-name>
+    <object-name>LightTaxiGlowH.002</object-name>
+    <object-name>LightTailGlow</object-name>
+    <object-name>LightNavGlowL</object-name>
+    <object-name>LightNavGlowR</object-name>
+    <object-name>LightVolume</object-name>
+    <object-name>LightVolume.001</object-name>
+    <object-name>LightVolume.002</object-name>
+    <object-name>Cone-texture</object-name>
+    <object-name>Cone-texture.001</object-name>
+    <object-name>Cone-texture.002</object-name>
+    <object-name>Strobes</object-name>
+    <object-name>Spot</object-name>
+    <object-name>Spot.001</object-name>
+    <object-name>Spot.002</object-name>
+    <object-name>lightconeRudderL</object-name>
+    <object-name>lightconeRudderR</object-name>	
+    <nopreview/>
 </animation>
 
 <!-- Special Shaders -->
 
 <animation>
-  <type>noshadow</type>
-  <object-name>BeaconL</object-name>
-  <object-name>BeaconU</object-name>
-  <object-name>BeaconLOn</object-name>
-  <object-name>BeaconUOn</object-name>
-  <object-name>TailLight</object-name>
-  <object-name>TailLampL</object-name>
-  <object-name>TailLampLOn</object-name>
-  <object-name>TailLampU</object-name>
-  <object-name>WingtipL</object-name>
-  <object-name>WingtipR</object-name>
-  <object-name>WingtipLampL</object-name>
-  <object-name>WingtipLampR</object-name>
-  <object-name>WingtipLampLOn</object-name>
-  <object-name>WingtipLampROn</object-name>
-  <object-name>LightTaxiGlowH</object-name>
-  <object-name>LightTaxiGlowH.001</object-name>
-  <object-name>LightTaxiGlowH.002</object-name>
-  <object-name>LightTailGlow</object-name>
-  <object-name>LightNavGlowL</object-name>
-  <object-name>LightNavGlowR</object-name>		
-  <object-name>Cone-texture</object-name>	
-  <object-name>Cone-texture.001</object-name>
-  <object-name>Cone-texture.002</object-name>
-  <object-name>Spot</object-name>
-  <object-name>Spot.001</object-name>
- 	<object-name>Spot.002</object-name>	
-	<object-name>NavLightBackVolume</object-name>
-	<object-name>NavLightVolume_right</object-name>
-	<object-name>NavLightVolume_left</object-name>
-	<object-name>BeaconVolume_1</object-name>
-	<object-name>BeaconVolume_2</object-name>
-	<object-name>LightVolume</object-name>
-	<object-name>LightVolume.001</object-name>
-	<object-name>LightVolume.002</object-name>
-	<object-name>LightBall</object-name>
-  <object-name>Strobes</object-name>
-  <object-name>CabinWindows</object-name>	
-  <object-name>CargoWindows</object-name>
-  <object-name>CabinWindowsDoorF</object-name>
-  <object-name>CabinWindowsDoorR</object-name>
-  <object-name>lightconeRudderL</object-name>
- 	<object-name>lightconeRudderR</object-name>
+    <type>noshadow</type>
+    <object-name>BeaconL</object-name>
+    <object-name>BeaconU</object-name>
+    <object-name>BeaconLOn</object-name>
+    <object-name>BeaconUOn</object-name>
+    <object-name>TailLight</object-name>
+    <object-name>TailLampL</object-name>
+    <object-name>TailLampLOn</object-name>
+    <object-name>TailLampU</object-name>
+    <object-name>WingtipL</object-name>
+    <object-name>WingtipR</object-name>
+    <object-name>WingtipLampL</object-name>
+    <object-name>WingtipLampR</object-name>
+    <object-name>WingtipLampLOn</object-name>
+    <object-name>WingtipLampROn</object-name>
+    <object-name>LightTaxiGlowH</object-name>
+    <object-name>LightTaxiGlowH.001</object-name>
+    <object-name>LightTaxiGlowH.002</object-name>
+    <object-name>LightTailGlow</object-name>
+    <object-name>LightNavGlowL</object-name>
+    <object-name>LightNavGlowR</object-name>		
+    <object-name>Cone-texture</object-name>	
+    <object-name>Cone-texture.001</object-name>
+    <object-name>Cone-texture.002</object-name>
+    <object-name>Spot</object-name>
+    <object-name>Spot.001</object-name>
+    <object-name>Spot.002</object-name>	
+    <object-name>NavLightBackVolume</object-name>
+    <object-name>NavLightVolume_right</object-name>
+    <object-name>NavLightVolume_left</object-name>
+    <object-name>BeaconVolume_1</object-name>
+    <object-name>BeaconVolume_2</object-name>
+    <object-name>LightVolume</object-name>
+    <object-name>LightVolume.001</object-name>
+    <object-name>LightVolume.002</object-name>
+    <object-name>LightBall</object-name>
+    <object-name>Strobes</object-name>
+    <object-name>CabinWindows</object-name>	
+    <object-name>CargoWindows</object-name>
+    <object-name>CabinWindowsDoorF</object-name>
+    <object-name>CabinWindowsDoorR</object-name>
+    <object-name>lightconeRudderL</object-name>
+    <object-name>lightconeRudderR</object-name>
 </animation>
 
+<!-- TODO Convert to Compositor -->
 <!-- working for Rembrandt -->
 <effect>
-	<inherits-from>Effects/model-transparent</inherits-from>
-  <object-name>BeaconL</object-name>
-  <object-name>BeaconU</object-name>
-  <object-name>BeaconLOn</object-name>
-  <object-name>BeaconUOn</object-name>
-  <object-name>TailLight</object-name>
-  <object-name>TailLampL</object-name>
-  <object-name>TailLampLOn</object-name>
-  <object-name>TailLampU</object-name>
-  <object-name>WingtipL</object-name>
-  <object-name>WingtipR</object-name>
-  <object-name>WingtipLampL</object-name>
-  <object-name>WingtipLampR</object-name>
-  <object-name>WingtipLampLOn</object-name>
-  <object-name>WingtipLampROn</object-name>
-  <object-name>LightTaxiGlowH</object-name>
-  <object-name>LightTaxiGlowH.001</object-name>
-  <object-name>LightTaxiGlowH.002</object-name>
-  <object-name>LightTailGlow</object-name>
-  <object-name>LightNavGlowL</object-name>
-  <object-name>LightNavGlowR</object-name>
-	<object-name>Cone-texture</object-name>
-  <object-name>Cone-texture.001</object-name>
-  <object-name>Cone-texture.002</object-name>
-  <object-name>Spot</object-name>
-  <object-name>Spot.001</object-name>
- 	<object-name>Spot.002</object-name>	
-  <object-name>Strobes</object-name>
-  <object-name>CabinWindows</object-name>
-  <object-name>CargoWindows</object-name>
-  <object-name>CabinWindowsDoorF</object-name>
-  <object-name>CabinWindowsDoorR</object-name>
-  <object-name>lightconeRudderL</object-name>
- 	<object-name>lightconeRudderR</object-name>		
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>BeaconL</object-name>
+    <object-name>BeaconU</object-name>
+    <object-name>BeaconLOn</object-name>
+    <object-name>BeaconUOn</object-name>
+    <object-name>TailLight</object-name>
+    <object-name>TailLampL</object-name>
+    <object-name>TailLampLOn</object-name>
+    <object-name>TailLampU</object-name>
+    <object-name>WingtipL</object-name>
+    <object-name>WingtipR</object-name>
+    <object-name>WingtipLampL</object-name>
+    <object-name>WingtipLampR</object-name>
+    <object-name>WingtipLampLOn</object-name>
+    <object-name>WingtipLampROn</object-name>
+    <object-name>LightTaxiGlowH</object-name>
+    <object-name>LightTaxiGlowH.001</object-name>
+    <object-name>LightTaxiGlowH.002</object-name>
+    <object-name>LightTailGlow</object-name>
+    <object-name>LightNavGlowL</object-name>
+    <object-name>LightNavGlowR</object-name>
+    <object-name>Cone-texture</object-name>
+    <object-name>Cone-texture.001</object-name>
+    <object-name>Cone-texture.002</object-name>
+    <object-name>Spot</object-name>
+    <object-name>Spot.001</object-name>
+    <object-name>Spot.002</object-name>	
+    <object-name>Strobes</object-name>
+    <object-name>CabinWindows</object-name>
+    <object-name>CargoWindows</object-name>
+    <object-name>CabinWindowsDoorF</object-name>
+    <object-name>CabinWindowsDoorR</object-name>
+    <object-name>lightconeRudderL</object-name>
+    <object-name>lightconeRudderR</object-name>		
 </effect>
 
 <!-- Landing and Search Light fake cone - disable in rembrand  -->
